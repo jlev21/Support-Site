@@ -91,9 +91,15 @@
         font-weight: 700;
       }
 
+      .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-top: 14px;
+      }
+
       .contact {
         display: inline-flex;
-        margin-top: 14px;
         padding: 10px 12px;
         border-radius: 12px;
         background: #eef3fb;
@@ -130,7 +136,9 @@
         <p>
           For questions, feedback, bug reports, or account support, email:
         </p>
-        <a class="contact" href="mailto:movirankerfeedback@gmail.com?subject=Movi%20Support">movirankerfeedback@gmail.com</a>
+        <div class="links">
+          <a class="contact" href="mailto:movirankerfeedback@gmail.com?subject=Movi%20Support">movirankerfeedback@gmail.com</a>
+        </div>
         <p>
           This opens your email app so you can send a message directly.
         </p>
@@ -151,16 +159,22 @@
         <p>
           If you need help with your account, want to report a problem, or want
           assistance deleting your account, contact support using the email above.
+          You can also add or edit your account email in the app for password
+          reset support.
         </p>
       </section>
 
       <section>
-        <h2>Privacy</h2>
+        <h2>Legal</h2>
         <p>
-          Movi uses account and movie ranking information to provide your
-          rankings, social features, and recommendations. Add your privacy policy
-          URL here when it is ready.
+          Movi uses account information, including email addresses, and movie
+          ranking information to provide rankings, social features,
+          recommendations, and account-related emails.
         </p>
+        <div class="links">
+          <a class="contact" href="privacy.html">Privacy Policy</a>
+          <a class="contact" href="terms.html">Terms of Service</a>
+        </div>
       </section>
 
       <footer>
